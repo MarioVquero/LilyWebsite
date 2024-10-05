@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+.Port-Images {
+    width: 40%;
+    margin:auto;
+    margin-top: 50px;
+    margin-left: 25px;
+    align-items: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+}
+.tab-item-images {
+    width: 50%;
+}
+
+#tab-1-content,
+#tab-2-content {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+.hovered {
+    cursor: pointer;
+    border:#fff 5px solid;
+}
+
+
+h1{
+    margin-top: 50px;
+}
